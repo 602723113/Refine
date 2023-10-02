@@ -1,0 +1,9 @@
+name: Refine
+Author: [so_so, Zoyn]
+version: 6.0
+depend: [Residence, Bind]
+api-version: 1.13
+main: cc.toin.jinglian.Upgrade
+commands:
+    getcore:
+        description: get core

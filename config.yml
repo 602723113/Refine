@@ -1,0 +1,38 @@
+# 精炼成功率设置
+Upgrading:
+  SuccessRate:
+    # 一级至二级的几率设置
+    Lv1-Lv2: 100
+    Lv2-Lv3: 100
+    Lv3-Lv4: 100
+    Lv4-Lv5: 100
+    Lv5-Lv6: 50
+    Lv6-Lv7: 50
+
+# 各个等级的攻击力加持
+Plus-1-Damge: 1
+Plus-2-Damge: 2
+Plus-3-Damge: 3
+Plus-4-Damge: 4
+Plus-5-Damge: 5
+Plus-6-Damge: 6
+Plus-7-Damge: 7
+# 各个等级的防御力加持
+Plus-1-Armor: 1
+Plus-2-Armor: 2
+Plus-3-Armor: 3
+Plus-4-Armor: 4
+Plus-5-Armor: 5
+Plus-6-Armor: 6
+Plus-7-Armor: 7
+
+# 评测出4件+7套时所执行的指令
+PingceCommands:
+  - "say &a你牛逼 %player%"
+  - "say 这是第二行指令"
+
+
+# 精炼失败时, 所提示的声音
+Sound:
+  upgradeSuccess: "BLOCK_ANVIL_USE"
+  upgradeFail: "BLOCK_ANVIL_BREAK"
